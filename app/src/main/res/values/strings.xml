@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FIngerPrintDemo</string>
+    <string name="leapfrog_logo">Leapfrog Logo</string>
+    <string name="ask_for_quotation">Ask for quotation</string>
+</resources>
