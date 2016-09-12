@@ -9,22 +9,21 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="np.com.grishma.fingerprintdemo.MainActivity">
 
-
-    <ImageView
-        android:id="@+id/iv_lf_logo"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="50dp"
-        android:contentDescription="@string/leapfrog_logo"
-        android:src="@drawable/leapfrog_logo" />
-
     <Button
-        android:id="@+id/button_ask_for_quotatio"
+        android:id="@+id/button_with_dialog"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/iv_lf_logo"
-        android:layout_centerHorizontal="true"
-        android:text="@string/ask_for_quotation" />
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="8dp"
+        android:text="@string/demo_for_fingerprint_without_dialog" />
+
+    <Button
+        android:id="@+id/button_without_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_with_dialog"
+        android:layout_centerInParent="true"
+        android:text="@string/demo_for_fingerprint_with_dialog" />
 
 </RelativeLayout>

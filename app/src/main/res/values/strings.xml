@@ -1,5 +1,7 @@
 <resources>
-    <string name="app_name">FIngerPrintDemo</string>
+    <string name="app_name">FingerPrintDemo</string>
     <string name="leapfrog_logo">Leapfrog Logo</string>
     <string name="ask_for_quotation">Ask for quotation</string>
+    <string name="demo_for_fingerprint_without_dialog">Demo for Fingerprint without dialog</string>
+    <string name="demo_for_fingerprint_with_dialog">Demo for Fingerprint with dialog</string>
 </resources>
