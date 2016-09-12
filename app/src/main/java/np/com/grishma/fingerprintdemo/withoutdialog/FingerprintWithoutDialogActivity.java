@@ -77,7 +77,7 @@ public class FingerprintWithoutDialogActivity extends AppCompatActivity {
         }
 
         generateKey();
-        if (cipherInit()) {
+        if (initCipher()) {
             cryptoObject = new FingerprintManager.CryptoObject(cipher);
             FingerprintHandler helper = new FingerprintHandler(this);
             helper.startAuth(fingerprintManager, cryptoObject);
@@ -121,7 +121,7 @@ public class FingerprintWithoutDialogActivity extends AppCompatActivity {
         }
     }
 
-    public boolean cipherInit() {
+    public boolean initCipher() {
         try {
             cipher = Cipher.getInstance(
                     KeyProperties.KEY_ALGORITHM_AES + "/"

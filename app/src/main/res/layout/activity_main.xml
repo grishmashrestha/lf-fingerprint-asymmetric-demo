@@ -16,7 +16,7 @@
         android:layout_below="@id/iv_lf_logo"
         android:layout_centerInParent="true"
         android:layout_marginBottom="8dp"
-        android:text="@string/demo_for_fingerprint_without_dialog" />
+        android:text="@string/demo_for_fingerprint_with_dialog" />
 
     <Button
         android:id="@+id/button_without_dialog"
@@ -24,6 +24,6 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/button_with_dialog"
         android:layout_centerInParent="true"
-        android:text="@string/demo_for_fingerprint_with_dialog" />
+        android:text="@string/demo_for_fingerprint_without_dialog" />
 
 </RelativeLayout>

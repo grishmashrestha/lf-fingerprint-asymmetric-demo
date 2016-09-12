@@ -4,4 +4,5 @@
     <string name="ask_for_quotation">Ask for quotation</string>
     <string name="demo_for_fingerprint_without_dialog">Demo for Fingerprint without dialog</string>
     <string name="demo_for_fingerprint_with_dialog">Demo for Fingerprint with dialog</string>
+    <string name="please_provide_your_finger_print_in_the_device_s_scanner_to_verify_the_authentication">Please provide your finger print in the device\'s scanner to verify the authentication.</string>
 </resources>

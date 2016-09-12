@@ -7,6 +7,7 @@ import android.view.View;
 
 import butterknife.ButterKnife;
 import butterknife.OnClick;
+import np.com.grishma.fingerprintdemo.withdialog.FingerprintWithDialogActivity;
 import np.com.grishma.fingerprintdemo.withoutdialog.FingerprintWithoutDialogActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -23,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = null;
         switch (view.getId()) {
             case R.id.button_with_dialog:
-                intent = new Intent(this, FingerprintWithoutDialogActivity.class);
+                intent = new Intent(this, FingerprintWithDialogActivity.class);
                 break;
 
             case R.id.button_without_dialog:

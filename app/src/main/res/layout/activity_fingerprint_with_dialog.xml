@@ -9,6 +9,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".withoutdialog.FingerprintWithoutDialogActivity">
 
+
     <ImageView
         android:id="@+id/iv_lf_logo"
         android:layout_width="200dp"
@@ -17,13 +18,5 @@
         android:layout_marginTop="50dp"
         android:contentDescription="@string/leapfrog_logo"
         android:src="@drawable/leapfrog_logo" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/iv_lf_logo"
-        android:textAlignment="center"
-        android:text="@string/please_provide_your_finger_print_in_the_device_s_scanner_to_verify_the_authentication"
-        />
 
 </RelativeLayout>
